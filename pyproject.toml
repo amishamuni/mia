@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 # Metadata for my project
 [project]
-name = "mia"
+name = "my_mia"
 
 # Versioning: MAJOR.MINOR.PATCH
 version = "0.0.1"
@@ -30,3 +30,6 @@ dynamic = ["dependencies"]
 # This is configuration specific to the 'setuptools' build backend
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+"Homepage" = "https://github.com/amishamuni/mia"
